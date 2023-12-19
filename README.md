@@ -23,7 +23,7 @@ Bibliotek is ideal for autonomous teams and startups that require a hassle-free 
 With less than 300 lines of code in the backend (commentaries included), Bibliotek is astonishing streamlined. It is easy to understand, read and expand, and it is aimed to those teams looking for a zero-maintenance internal service.
 
 - Flat-File Based: Bibliotek operates entirely on markdown files, ensuring simplicity and portability.
-- Sorting Mechanism: Files and folders can be prefixed (e.g., 0000_) to control their appearance order. This prefix is not visible in the frontend.
+- Sorting Mechanism: Files and folders can be prefixed (e.g., 000_) to control their appearance order. This prefix is not visible in the frontend.
 - No Database: Eliminates the need for database management and configuration.
 - No Configuration Files: Offers a straightforward setup without the hassle of configuration files.
 - No Web Server Requirements: Can run independently without a dedicated web server.
