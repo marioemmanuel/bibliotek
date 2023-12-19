@@ -53,14 +53,28 @@ make
 
 ### Installation
 
-Copy static and content folder to your preferred folder.
-Deploy your folder structure and markdown files under content subfolder.
+```
+$ git clone github.com/marioemmanuel/bibliotek
+$ go mod init bibliotek
+$ go get github.com/gomarkdown/markdown@latest
+$ cd bibliotek
+$ make clean
+$ make
+```
+
+Deploy your folder structure and markdown files under `content` subfolder.
 
 
 ### Running
 
 ```
+cd bibliotek
 ./bibliotek -path .
+```
+
+or
+
+```
 ./bibliotek -path "/my/path"
 ```
 
