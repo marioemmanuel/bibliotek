@@ -8,21 +8,30 @@ import (
 )
 
 // Global variable to store the file path
+var basePath string
 var rootPath string
+var staticPath string
 
 func init() {
 	// Define the command line flag
 	// The flag is -path, with a default value and a short description
-	flag.StringVar(&rootPath, "path", "", "Path to the folder to be exposed")
+	flag.StringVar(&basePath, "path", "", "Path to the folder to be exposed")
 
 	// Parse the flags
 	flag.Parse()
 
 	// Check if the path is provided
-	if rootPath == "" {
-		fmt.Println("You must provide a file root path using the -path flag.")
+	if basePath == "" {
+		fmt.Println("You must provide a file base path using the -path flag.")
+		fmt.Println("This path will contain two folders: static and content")
+		fmt.Println("static will contain the HTML, CSS and JS files")
+		fmt.Println("content will contain your provided structure of folders, files and markdown files")
 		os.Exit(1)
 	}
+
+	// Populate content and static paths
+	rootPath = basePath + "/content"
+	staticPath = basePath + "/static"
 }
 
 func main() {
@@ -37,7 +46,7 @@ func main() {
     }
 
     // Serve static files
-    fs := http.FileServer(http.Dir("static"))
+    fs := http.FileServer(http.Dir(staticPath))
     http.Handle("/", fs)
 
     http.HandleFunc("/content/", renderMarkdownHandler)
