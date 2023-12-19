@@ -5,6 +5,8 @@
 Bibliotek is a self-contained, lightweight CMS written in Go, HTML, CSS and Javascript. It's uniquely crafted for small teams and startups looking for a zero-maintenance solution to manage and serve their technical documentation. With a focus on simplicity and ease of use, Bibliotek stands out in a landscape dominated by PHP-based CMSs. 
 You can reach the author through Git (github.com/marioemmanuel) or Linkedin (www.linkedin.com/in/marioemmanuel).
 
+![screenshot](screenshot.png)
+
 ### Motivation
 
 The primary motivation behind Bibliotek is to address the common challenges posed by traditional CMSs — their dependency on specific PHP versions and web server configurations. Bibliotek is a true standalone system that eliminates such dependencies, offering a streamlined and efficient way to manage content. Bibliotek is therefore not a mainstream solution and aims to cover a specific need.
