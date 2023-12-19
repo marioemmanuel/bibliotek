@@ -31,7 +31,7 @@ With less than 300 lines of code in the backend (commentaries included), Bibliot
 - Content & Static Directories: Organized content in content and static folders for clarity and ease of management.
 - Customizable HTML & CSS: Located under the static folder, allowing for easy customization to fit branding needs.
 
-### When to use it, when not to use
+### When not to use it
 
 Users requiring more features or looking to store massive amounts of documents shall likely use another CMS. Bibliotek has been conceived to be used as stand alone project or startup repository. The main goal is to have a zero overhead CMS for documentation, and as such, lacks advanced features.
  
@@ -57,22 +57,24 @@ $ make
 
 ### Installation
 
-- Copy bibliotek binary to /usr/local/bin
-- Choose a deployment folder anywhere in your filesystem
-- Ensure that the folder contains `content` subfolder with your folder structure and markdown files.
-- Ensure that the folder contains `static` with the files provided. Those can be customised.
+- Copy `bibliotek` binary to `/usr/local/bin` -or any other binary location-
+- Choose a deployment folder anywhere in your filesystem -suggested `/var/bibliotek`-
+- Ensure that the folder `/var/bibliotek` contains `content` subfolder with your folder structure and markdown files.
+- Ensure that the folder `/var/bibliotek` contains `static` with the files provided. Those can be customised.
 
 ### Running
+
+Before Installing you can just test Bibliotek from the very same folder:
 
 ```
 cd bibliotek
 ./bibliotek -path .
 ```
 
-or
+After installing:
 
 ```
-./bibliotek -path "/my/path"
+bibliotek -path "/var/bibliotek"
 ```
 
 ### Development Status
