@@ -19,16 +19,16 @@ Bibliotek is ideal for autonomous teams and startups that require a hassle-free 
 
 ### Key Features
 
-	With less than 300 lines of code in the backend (commentaries included), Bibliotek is astonishing streamlined. It is easy to understand, read and expand, and it is aimed to those teams looking for a zero-maintenance internal service.
+With less than 300 lines of code in the backend (commentaries included), Bibliotek is astonishing streamlined. It is easy to understand, read and expand, and it is aimed to those teams looking for a zero-maintenance internal service.
 
-    - Flat-File Based: Bibliotek operates entirely on markdown files, ensuring simplicity and portability.
-    - Sorting Mechanism: Files and folders can be prefixed (e.g., 0000_) to control their appearance order. This prefix is not visible in the frontend.
-    - No Database: Eliminates the need for database management and configuration.
-    - No Configuration Files: Offers a straightforward setup without the hassle of configuration files.
-    - No Web Server Requirements: Can run independently without a dedicated web server.
-    - Single Parameter Setup: Requires only one parameter (-path) to specify the content and static files' location.
-    - Content & Static Directories: Organized content in content and static folders for clarity and ease of management.
-    - Customizable HTML & CSS: Located under the static folder, allowing for easy customization to fit branding needs.
+- Flat-File Based: Bibliotek operates entirely on markdown files, ensuring simplicity and portability.
+- Sorting Mechanism: Files and folders can be prefixed (e.g., 0000_) to control their appearance order. This prefix is not visible in the frontend.
+- No Database: Eliminates the need for database management and configuration.
+- No Configuration Files: Offers a straightforward setup without the hassle of configuration files.
+- No Web Server Requirements: Can run independently without a dedicated web server.
+- Single Parameter Setup: Requires only one parameter (-path) to specify the content and static files' location.
+- Content & Static Directories: Organized content in content and static folders for clarity and ease of management.
+- Customizable HTML & CSS: Located under the static folder, allowing for easy customization to fit branding needs.
 
 ### Philosophy
 
