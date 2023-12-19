@@ -47,13 +47,6 @@ While Bibliotek is distributed under the MIT license, it is important to note th
 ### Compilation
 
 ```
-go get github.com/gomarkdown/markdown
-make
-```
-
-### Installation
-
-```
 $ git clone github.com/marioemmanuel/bibliotek
 $ go mod init bibliotek
 $ go get github.com/gomarkdown/markdown@latest
@@ -62,8 +55,12 @@ $ make clean
 $ make
 ```
 
-Deploy your folder structure and markdown files under `content` subfolder.
+### Installation
 
+- Copy bibliotek binary to /usr/local/bin
+- Choose a deployment folder anywhere in your filesystem
+- Ensure that the folder contains `content` subfolder with your folder structure and markdown files.
+- Ensure that the folder contains `static` with the files provided. Those can be customised.
 
 ### Running
 
