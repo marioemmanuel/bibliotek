@@ -12,7 +12,7 @@ html, body {
 	width: 100%;
 	text-align: center;
 	vertical-align: middle;
-    /*border: 1px solid white; /* Add for a border, recommended if no image is used */ */
+    /*border: 1px solid darkred; /* Add for a border, recommended if no image is used */ */
 }
 .logoSep {
 	font-family: 'Didact Gothic' , sans-serif;
@@ -70,27 +70,37 @@ html, body {
 
 /* Add your CSS styles here */
 #leftPane {
-	color: white;
+	color: darkred;
+	min-width: 25%;
 	width: 25%;
-	/*background: #F9F9F9;*/
-	background: darkred;
-	padding: 10px;
+	max-width: 25%;
+	background: #F0F0F0;
+	/*background: darkred;*/
 	box-shadow: 4px 0 5px -3px rgba(0, 0, 0, 0.6);
 }
 #contentPane {
     flex-grow: 1; /* Takes up the remaining space */
-	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	overflow-y: auto;
 }
 
 /* Style for links within the navigation pane */
+#navPane {
+	padding: 10px;
+}
+
 #navPane a {
     color: inherit; /* This makes the link color the same as the parent element */
     text-decoration: none; /* Removes the underline from links */
     border: 1px solid transparent; /* Invisible border */
+	overflow-y: auto;
 }
 
 #navPane a:hover {
-    border: 1px dotted white; /* Change #000 to the desired border color */
+    border: 1px dotted darkred; /* Change #000 to the desired border color */
 }
 
 /* Style for the navigation pane unordered lists */
@@ -132,7 +142,7 @@ html, body {
 }
 
 .folder-item:hover {
-    border: 1px dotted white; /* Change #000 to the desired border color */
+    border: 1px dotted darkred; /* Change #000 to the desired border color */
 }
 
 /* Create the caret/arrow with a unicode character */
