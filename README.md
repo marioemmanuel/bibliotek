@@ -67,5 +67,7 @@ Deploy your folder structure and markdown files under content subfolder.
 ### Development Status
 
 Bibliotek is currently in Alpha but it is fully functional. Report any bugs or suggestions through Git.
+
 A sample structure will be added to allow users better understand how to deploy files (although it is as simple as deploying a folder structure and markdown files that end in .md). Files and folders are sorted alphabetically, a prefix 000_ can be used before the file or folder name to help the sortening, that prefix -if present- will not appear in the front end.
-An inline markdown editor is the top missing feature being considered to be added, as of now, markdown files need to be written externally and uploaded to the server.
+
+An inline markdown editor is the top missing feature being considered to be added, as of now, markdown files need to be written externally and uploaded to the server. 
