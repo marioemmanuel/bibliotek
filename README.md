@@ -42,11 +42,31 @@ Users requiring more features or looking to store massive amounts of documents s
 
 While Bibliotek is distributed under the MIT license, it is important to note that any associated photos might be copyrighted and are therefore not included under this license.
 
-### Installation
+### Requirements
+
+- go
+- gomarkdown package installed
+
+### Compilation
 
 ```
+go get github.com/gomarkdown/markdown
 make
+```
+
+### Installation
+
+Copy static and content folder to your preferred folder.
+Deploy your folder structure and markdown files under content subfolder.
+
+
+### Running
+
+```
 ./bibliotek -path .
+./bibliotek -path "/my/path"
+```
+
 ### Development Status
 
 Bibliotek is currently in Alpha but it is fully functional. Report any bugs or suggestions through Git.
