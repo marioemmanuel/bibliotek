@@ -1,3 +1,8 @@
+// PROJECT: bibliotek makefile
+// AUTHOR: MARIO EMMANUEL
+// DATE: 2023/DEC/19
+// github.com/marioemmanuel/bibliotek
+
 document.addEventListener("DOMContentLoaded", function() {
     fetch('/tree')
         .then(response => response.text())

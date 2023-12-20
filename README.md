@@ -37,10 +37,11 @@ Users requiring more features or looking to store massive amounts of documents s
  
 ### License Note
 
-While Bibliotek is distributed under the MIT license, it is important to note that any associated photos might be copyrighted and are therefore not included under this license.
+While Bibliotek is distributed under the BSD license, it is important to note that any associated photos might be copyrighted and are therefore not included under this license.
 
 ### Requirements
 
+- make -any version, can be used go build instead-
 - go
 - gomarkdown package installed
 

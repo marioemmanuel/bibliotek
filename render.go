@@ -1,3 +1,8 @@
+// PROJECT: bibliotek makefile
+// AUTHOR: MARIO EMMANUEL
+// DATE: 2023/DEC/19
+// github.com/marioemmanuel/bibliotek
+
 package main
 
 import (
